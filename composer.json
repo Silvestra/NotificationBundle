@@ -1,0 +1,34 @@
+{
+    "name":         "silvestra/notification-bundle",
+    "homepage":     "https://github.com/Silvestra/NotificationBundle",
+    "description":  "Silvestra notification bundle",
+    "keywords":     ["Notification", "Alert"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":   "Tadas Gliaubicas",
+            "email":  "tadcka89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle" : ">=2.3",
+        "silvestra/notification": "0.1.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2",
+        "squizlabs/php_codesniffer": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silvestra\\Bundle\\NotificationBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
